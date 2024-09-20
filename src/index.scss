@@ -1,3 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
+@import './sass/variables';
+
 body {
-  background-color: #EFE9E4;
+  background-color: map-get($colors, 'gray');
+  min-height: 100vh;
+}
+
+* {
+  font-family: "Nunito Sans", sans-serif;
+  list-style: none;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: black;
 }
