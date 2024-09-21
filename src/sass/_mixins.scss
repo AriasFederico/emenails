@@ -1,7 +1,5 @@
 $breakpoint-medium: 780px;
 $breakpoint-large: 1280px;
-$breakpoint-heigth-mobile: 400px;
-
 
 @mixin respond-to($breakpoint) {
   @if $breakpoint =='medium' {

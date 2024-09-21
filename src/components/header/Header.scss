@@ -2,18 +2,29 @@
 @import '../../sass/mixins';
 
 .Header {
+  position: relative;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 1.5rem 1rem;
+  padding: .7rem;
   border-bottom: 1px solid rgba(128, 128, 128, 0.418);
 
+  @include respond-to('large') {
+    padding: .7rem 5rem;
+  }
+
   &-logo {
-    width: 5rem;
+    width: 4rem;
+    user-select: none;
   }
 
   &-hamburger {
     width: 2rem;
     height: 3rem;
+    color: gray;
+
+    @include respond-to('medium') {
+      display: none;
+    }
   }
 }

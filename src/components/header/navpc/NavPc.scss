@@ -1,0 +1,14 @@
+@import '../../../sass/mixins';
+@import '../../../sass/variables';
+
+.NavPc {
+  display: none;
+
+  @include respond-to('medium') {
+    display: block;
+
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+  }
+}

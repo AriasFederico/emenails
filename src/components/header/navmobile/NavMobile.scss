@@ -1,0 +1,41 @@
+@import '../../../sass/mixins';
+@import '../../../sass/variables';
+
+
+.NavMobile {
+  position: fixed;
+  z-index: 1500;
+  background-color: rgb(150, 100, 151);
+  padding: 4rem 2rem;
+  top: 5.8rem;
+  left: 0;
+  width: 90%;
+  height: 100vh;
+
+  @include respond-to('medium') {
+    display: none;
+  }
+
+  &-ul {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    user-select: none;
+  }
+
+  &-li {
+    font-size: 1.2rem;
+  }
+
+  &-a {
+    color: white;
+  }
+
+  &-btn {
+    outline: none;
+    border: none;
+    margin-top: 4rem;
+    padding: .9rem 3.5rem;
+
+  }
+}

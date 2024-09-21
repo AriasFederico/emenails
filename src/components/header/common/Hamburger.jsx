@@ -1,4 +1,4 @@
-export const Hamburger = ({ className }) => {
+export const Hamburger = ({ className, event }) => {
 	return (
 		<svg
 			xmlns='http://www.w3.org/2000/svg'
@@ -6,6 +6,7 @@ export const Hamburger = ({ className }) => {
 			height='1em'
 			viewBox='0 0 2048 2048'
 			className={className}
+			onClick={event}
 		>
 			<path
 				fill='currentColor'
