@@ -26,8 +26,8 @@
     &::after {
       content: '';
       position: absolute;
-      background-color: rgba(255, 255, 255, 0.877);
-      box-shadow: 4px 1px 8px rgba(128, 128, 128, 0.233);
+      background-color: rgba(255, 255, 255, 0.87);
+      box-shadow: 4px 1px 8px rgba(228, 228, 228, 0.897);
       backdrop-filter: blur(2px);
       z-index: -100;
       top: 0;
@@ -38,8 +38,12 @@
   }
 
   &-h1 {
-    font-size: 2.5rem;
+    font-size: 2.3rem;
     color: map-get($colors, 'purple');
+  }
+
+  &-h3 {
+    font-weight: 500;
   }
 
   &-hr {
@@ -47,13 +51,22 @@
   }
 
   &-p {
-    margin-top: 1rem;
+    margin-top: 1.5rem;
     line-height: 1.7;
   }
 
+  &-svg {
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+
   &-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .7rem;
     margin-top: 2rem;
-    padding: .8rem .7rem;
+    padding: 1.4rem;
     border: none;
     background-color: rgb(123, 192, 123);
     color: white;

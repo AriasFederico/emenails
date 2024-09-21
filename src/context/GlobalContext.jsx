@@ -18,7 +18,7 @@ const bbdd = {
 			{
 				h1: 'EMENails',
 				h3: 'Centro integral de belleza',
-				p: 'Obtené los mejores servicios de belleza en un solo lugar. ¡Ofrecemos calidad y atención personalizada!',
+				p: '¡Obtené el mejor cuidado en manicuria, pedicuria y bijouterie! Atención personalizada y dedicada solo para vos.',
 			},
 		],
 	},

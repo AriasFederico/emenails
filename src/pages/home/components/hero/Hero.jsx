@@ -1,5 +1,6 @@
 import './Hero.scss';
 import { useContext } from 'react';
+import { SvgRocket } from '../../../../components/common/SvgRocket';
 import { GlobalContext } from '../../../../context/GlobalContext';
 
 export const Hero = () => {
@@ -15,9 +16,13 @@ export const Hero = () => {
 				data-aos-duration={1000}
 			>
 				<h1 className='Hero-h1'>{h1}</h1>
+				<h3 className='Hero-h3'>{h3}</h3>
 				<hr className='Hero-hr' />
 				<p className='Hero-p'>{p}</p>
-				<button className='Hero-btn'>Reserva tu turno !</button>
+				<button className='Hero-btn'>
+					<SvgRocket classname={'Hero-svg'} />
+					RESERVAR TURNO
+				</button>
 			</div>
 		</section>
 	);

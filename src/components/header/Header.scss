@@ -21,7 +21,6 @@
   &-hamburger {
     width: 2rem;
     height: 3rem;
-    color: gray;
 
     @include respond-to('medium') {
       display: none;
