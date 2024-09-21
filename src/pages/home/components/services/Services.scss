@@ -1,0 +1,38 @@
+@import '../../../../sass/variables';
+@import '../../../../sass/mixins';
+
+.Services {
+  margin-top: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 1rem;
+  gap: 1rem;
+
+  @include respond-to('large') {
+    padding: 0;
+  }
+
+  &-cards {
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+
+    @include respond-to('large') {
+      flex-direction: row;
+      justify-content: center;
+    }
+
+  }
+
+  &-h2 {
+    text-align: center;
+    font-size: 2.6rem;
+    color: map-get($colors, 'purple');
+  }
+
+  &-h3 {
+    text-align: center;
+  }
+}

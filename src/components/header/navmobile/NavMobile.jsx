@@ -1,6 +1,8 @@
 import './NavMobile.scss';
 import { useContext } from 'react';
 import { GlobalContext } from '../../../context/GlobalContext';
+import { BtnSubmit } from '../../common/submit/BtnSubmit';
+
 export const NavMobile = () => {
 	const { header } = useContext(GlobalContext);
 	const { menu } = header;
@@ -16,7 +18,7 @@ export const NavMobile = () => {
 					</li>
 				))}
 			</ul>
-			<button className='NavMobile-btn'>Reservar turno</button>
+			<BtnSubmit />
 		</div>
 	);
 };

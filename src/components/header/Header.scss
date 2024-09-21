@@ -10,7 +10,7 @@
   border-bottom: 1px solid rgba(128, 128, 128, 0.418);
 
   @include respond-to('large') {
-    padding: .7rem 5rem;
+    padding: .7rem 10rem;
   }
 
   &-logo {

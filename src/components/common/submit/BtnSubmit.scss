@@ -1,0 +1,21 @@
+.BtnSubmit {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: .7rem;
+  padding: 1.1rem 3rem 1rem;
+  border: none;
+  background-color: rgb(109, 185, 139);
+  color: white;
+  transition: all .3s;
+
+  &:hover {
+    background-color: rgb(91, 167, 121);
+  }
+
+  &-svg {
+    width: 1.2rem;
+    height: 1.2rem;
+  }
+}

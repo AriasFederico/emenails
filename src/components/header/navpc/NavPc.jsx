@@ -1,5 +1,6 @@
 import './NavPc.scss';
 import { useContext } from 'react';
+import { BtnSubmit } from '../../../components/common/submit/BtnSubmit';
 import { GlobalContext } from '../../../context/GlobalContext';
 export const NavPc = () => {
 	const { header } = useContext(GlobalContext);
@@ -13,6 +14,7 @@ export const NavPc = () => {
 					</a>
 				</li>
 			))}
+			<BtnSubmit />
 		</ul>
 	);
 };

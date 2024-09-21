@@ -1,6 +1,6 @@
 import './Hero.scss';
 import { useContext } from 'react';
-import { SvgRocket } from '../../../../components/common/SvgRocket';
+import { BtnSubmit } from '../../../../components/common/submit/BtnSubmit';
 import { GlobalContext } from '../../../../context/GlobalContext';
 
 export const Hero = () => {
@@ -19,10 +19,7 @@ export const Hero = () => {
 				<h3 className='Hero-h3'>{h3}</h3>
 				<hr className='Hero-hr' />
 				<p className='Hero-p'>{p}</p>
-				<button className='Hero-btn'>
-					<SvgRocket classname={'Hero-svg'} />
-					RESERVAR TURNO
-				</button>
+				<BtnSubmit />
 			</div>
 		</section>
 	);

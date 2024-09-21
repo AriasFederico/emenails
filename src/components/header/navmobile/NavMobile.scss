@@ -5,12 +5,15 @@
 .NavMobile {
   position: fixed;
   z-index: 1500;
-  background-color: rgb(150, 100, 151);
+  background-color: rgb(255, 255, 255);
   padding: 4rem 2rem;
   top: 5.8rem;
   left: 0;
   width: 90%;
   height: 100vh;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
 
   @include respond-to('medium') {
     display: none;
@@ -27,17 +30,4 @@
     font-size: 1.2rem;
   }
 
-  &-a {
-    color: white;
-  }
-
-  &-btn {
-    outline: none;
-    border: none;
-    margin-top: 4rem;
-    padding: 1.4rem 3.5rem;
-    background-color: rgb(123, 192, 123);
-    color: white;
-    cursor: pointer;
-  }
 }
