@@ -1,9 +1,9 @@
 import './BtnHome.scss';
-import { BackHome } from '../backHome';
+import { BackHomeSvg } from '../BackHomeSvg.jsx';
 export const BtnHome = () => {
 	return (
 		<a href='#header' className='BtnHome'>
-			<BackHome />
+			<BackHomeSvg />
 			Volver al inicio
 		</a>
 	);
