@@ -9,8 +9,13 @@
   padding: .7rem;
   border-bottom: 1px solid rgba(128, 128, 128, 0.418);
 
+  @include respond-to('medium') {
+    padding: .7rem 3rem;
+  }
+
+
   @include respond-to('large') {
-    padding: .7rem 10rem;
+    padding: .7rem 6rem;
   }
 
   &-logo {
