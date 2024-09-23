@@ -2,9 +2,9 @@
 @import '../../../../sass/mixins';
 
 .Hero {
-  background-image: url('../../../../../public/manos-femeninas-concepto-manicura_144627-42086.jpg');
+  background-image: url('../../../../../public/manos-femeninas-concepto-manicura_144627-42086.png');
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: center right;
   background-size: cover;
   min-height: 80vh;
   display: flex;
@@ -56,7 +56,7 @@
     color: map-get($colors, 'purple');
 
     @include respond-to('large') {
-      font-size: 3.5rem;
+      font-size: 3rem;
     }
   }
 

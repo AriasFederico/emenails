@@ -6,7 +6,7 @@ const bbdd = {
 		menu: [
 			{ title: 'Inicio', href: '/' },
 			{ title: 'Servicios', href: '#services' },
-			{ title: 'Sobre EMENails', href: '/about' },
+			{ title: 'Sobre EMENails', href: '#about' },
 		],
 		rrss: [
 			{ title: 'Instagram', icon: '#', href: '#' },
@@ -40,6 +40,12 @@ const bbdd = {
 			'Decoraciones de pies básico',
 			'Belleza de pies + semi',
 		],
+	},
+	about: {
+		hour: ['De lunes a viernes de: 09:30hs a 13:00hs - 17:30 a 19:30'],
+		adress: ['57 e/ 139 y 140 número 13'],
+		tel: ['+54 9 221 454-7130'],
+		instagram: [{ title: 'Instagram', href: '#' }],
 	},
 };
 

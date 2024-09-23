@@ -2,6 +2,10 @@
 
 @import './sass/variables';
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   min-height: 100vh;
 }

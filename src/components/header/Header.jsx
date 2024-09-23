@@ -10,7 +10,7 @@ export const Header = () => {
 	const [isNavActive, setIsNavActive] = useState(false);
 
 	return (
-		<header className='Header'>
+		<header className='Header' id='header'>
 			<Logo className={'Header-logo'} />
 			<NavPc />
 			<Hamburger

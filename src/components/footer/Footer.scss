@@ -1,0 +1,15 @@
+.Footer {
+  display: flex;
+  justify-content: flex-end;
+  padding: 1rem;
+  background-color: #333333;
+
+  &-p {
+    color: white;
+  }
+
+  &-a {
+    margin-left: 1rem;
+    color: white;
+  }
+}
