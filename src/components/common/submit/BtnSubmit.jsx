@@ -1,11 +1,12 @@
 import { SvgRocket } from '../SvgRocket';
 import './BtnSubmit.scss';
+// 2214547130
 
 export const BtnSubmit = ({ classname }) => {
 	const handleWhatsAppClick = () => {
-		const phoneNumber = '2213186889'; // Número de teléfono del cliente con código del país y sin espacios
+		const phoneNumber = '2214547130'; // Número de teléfono del cliente con código del país y sin espacios
 		const message = '¡Hola! Me gustaría reservar un turno.'; // Mensaje personalizado
-		const url = `https://wa.me/${phoneNumber}?message=${encodeURIComponent(message)}`;
+		const url = `https://wa.me/${phoneNumber}?message=${message}`;
 
 		window.open(url, '_blank');
 	};
